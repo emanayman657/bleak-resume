@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+
+    <!-- css bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--font awesome 6.4.2-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--title-->
+    <title>Bleak</title>
+</head>
+
+<body>
+    <!-- container -->
+    <div class="container ">
+        <!--header-->
+
+        <header class="mb-4 bg-dark">
+            <nav class="navbar navbar-expand-lg bg-dark ">
+                <div class="container-fluid justify-content-between mx-4">
+                    <div>
+                        <a class="navbar-brand text-uppercase" href="#"> bleak </a>
+                    </div>
+                    <div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon d-flex align-items-center justify-content-center"> <i
+                                    class="fa-solid fa-bars" style="line-height: 2; color:#fff;"></i></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav d-flex flex-sm-column flex-lg-row">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"> Home </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#About" class="nav-link"> About </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#Resume" class="nav-link"> Resume </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#Portfolio" class="nav-link"> Portfolio </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#Blog" class="nav-link"> Blog </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#Contact" class="nav-link"> Contact </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+        </header>
+
+        <!--1ts section-->
+        <section class="section-one bg-dark my-4" id="About">
+            <div
+                class="row container-fluid d-flex flex-wrap justify-content-xl-between justify-content-sm-center  py-5 ">
+                <div
+                    class="col-lg-8 col-md-12 d-flex flex-column align-center justify-content-center px-4 text-sm-center text-lg-start">
+                    <p class="pb-4"> I am Bleak Peaker </p>
+                    <h1 class="pb-4"> Graphic Designer </h1>
+                    <div class="pb-3">
+                        <a href="#" class=" link-underline-opacity-0 btn">
+                            <span> Contact me </span>
+                        </a>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-12 d-flex align-center justify-content-center ">
+                    <img src="img/intro-image.png.png" width="100%" height="100%">
+                </div>
+            </div>
+        </section>
+
+        <!--2nd section-->
+        <section class="section-two bg-dark my-4" id="Resume">
+            <div
+                class="row gx-0 container-fluid d-flex justify-content-xl-between justify-content-sm-center pe-0 me-0 ">
+                <div
+                    class="col-md-12 col-lg-6 d-flex flex-column align-center justify-content-evenly py-5 px-5 text-sm-center text-lg-start">
+                    <h3 class="pb-4"> About Me </h3>
+                    <h1 class="pb-4"> I am a Graphic Designer </h1>
+                    <p class="pb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut doloremque
+                        ratione perferendis possimus voluptatibus distinctio autem expedita qui
+                        unde modi impedit officia illum praesentium amet, vero quos natus
+                        veritatis totam!
+                    </p>
+                </div>
+                <div class=" col-md-12 col-lg-6 d-flex align-center justify-content-end pe-0 me-0">
+                    <img src="img/div.content-right.png" width="100%" height="100%">
+                </div>
+            </div>
+
+        </section>
+
+        <!--3rd section-->
+        <section class="container section-three bg-dark my-40" id="Portfolio">
+            <div class="row d-flex align-items-center justify-content-center">
+                <h3 class="pt-5 text-center"> Portfolio </h3>
+                <!-- Nav tabs -->
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="pill" href="#seeall">See All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="pill" href="#house"> House Plant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="pill" href="#flowers">Flowers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="pill" href="#photo">Photography</a>
+                    </li>
+                </ul>
+
+            </div>
+
+             <!-- Tab panes -->
+            <div class="tab-content d-flex flex-wrap justify-content-center align-center">
+                <div class="tab-pane container active container-fluid px-3 py-5" id="seeall">
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3 " data-work="House Plant">
+                        <img src="img/portfolio1.png" width="100%">
+                    </div>
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3 " data-work="House Plant">
+        
+                        <img src="img/portfolio2.png" width="100%">
+                    </div>
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3 " data-work="House Plant">
+        
+                        <img src="img/portfolio3.png" width="100%">
+        
+                    </div>
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3" data-work="flower">
+                        <img src="img/portfolio4.png" width="100%">
+                    </div>
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3"
+                        data-work="House Plant">
+                        <img src="img/portfolio5.png" width="100%" class="img-fluid">
+                    </div>
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3"
+                        data-work="House Plant">
+                        <img src="img/portfolio6.png" width="100%">
+                    </div>
+                </div>
+                <div class="tab-pane container fade container-fluid px-3 py-5" id="house">
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3 " data-work="House Plant">
+                        <img src="img/portfolio1.png" width="100%">
+                    </div>
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3 " data-work="House Plant">
+        
+                        <img src="img/portfolio6.png" width="100%">
+                    </div>
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3 " data-work="House Plant">
+        
+                        <img src="img/portfolio3.png" width="100%">
+        
+                    </div>
+                </div>
+                <div class="tab-pane container fade container-fluid px-3 py-5" id="flowers">
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3 " data-work="Flowers">
+                        <img src="img/portfolio5.png" width="100%">
+                    </div>
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3 " data-work="Flowers">
+        
+                        <img src="img/portfolio3.png" width="100%">
+                    </div>
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3 " data-work="Flowers">
+        
+                        <img src="img/portfolio1.png" width="100%">
+        
+                    </div> 
+                </div>
+                <div class="tab-pane container fade container-fluid px-3 py-5" id="photo">
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3 " data-work="Photography">
+                        <img src="img/portfolio2.png" width="100%">
+                    </div>
+                    <div class="flower col-md-12 col-lg-4 justify-content-center p-3 " data-work="Photography">
+        
+                        <img src="img/portfolio4.png" width="100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+        <!--4th section-->
+        <section class="section-four bg-dark my-4" id="Blog">
+            <div class="row d-flex align-items-center justify-content-center">
+                <h3 class="pt-5 text-center"> My Blog </h3>
+                <ul class="row d-flex flex-wrap list-inline pt-4">
+                    <li class="col-lg-6 col-md-12 list-inline-item m-0 py-3">
+                        <article>
+                            <div class="d-flex flex-column">
+                                <div>
+                                    <img src="img/blog1.jpg.png" width="100%">
+                                </div>
+                                <div class="content">
+                                    <h2>Graphic Design and Photography Workshop This Year</h2>
+                                    <span class="d-flex flex-row align-items-center">
+                                        <p class="align-middle m-0"> August 23, 2019 </p>
+                                        <i class="fa-solid fa-circle mx-3"
+                                            style="line-height:7px; color:#525252; font-size: 7px;"></i>
+                                        <a href="#"> GRAPHIC </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="col-lg-6 col-md-12 list-inline-item m-0 py-3">
+                        <article>
+                            <div class="d-flex flex-column">
+                                <div>
+                                    <img src="img/blog2.jpg.png" width="100%">
+                                </div>
+                                <div class="content">
+                                    <h2>Creeping Plants for Minimalist Home Decorations</h2>
+                                    <span class="d-flex flex-row align-items-center">
+                                        <p class="align-middle m-0"> August 23, 2019 </p>
+                                        <i class="fa-solid fa-circle mx-3"
+                                            style="line-height:7px; color:#525252; font-size: 7px;"></i>
+                                        <a href="#"> NATURE </a>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="col-lg-6 col-md-12 list-inline-item m-0 py-3">
+                        <article>
+                            <div class="d-flex flex-column">
+                                <div>
+                                    <img src="img/blog1.jpg.png" width="100%">
+                                </div>
+                                <div class="content">
+                                    <h2>Graphic Design and Photography Workshop This Year</h2>
+                                    <span class="d-flex flex-row align-items-center">
+                                        <p class="align-middle m-0"> August 23, 2019 </p>
+                                        <i class="fa-solid fa-circle mx-3"
+                                            style="line-height:7px; color:#525252; font-size: 7px;"></i>
+                                        <a href="#"> GRAPHIC </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="col-lg-6 col-md-12 list-inline-item m-0 py-3">
+                        <article>
+                            <div class="d-flex flex-column">
+                                <div>
+                                    <img src="img/blog2.jpg.png" width="100%">
+                                </div>
+                                <div class="content">
+                                    <h2>Creeping Plants for Minimalist Home Decorations</h2>
+                                    <span class="d-flex flex-row align-items-center">
+                                        <p class="align-middle m-0"> August 23, 2019 </p>
+                                        <i class="fa-solid fa-circle mx-3"
+                                            style="line-height:7px; color:#525252; font-size: 7px;"></i>
+                                        <a href="#"> NATURE </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!--Footer-->
+        <footer id="Contact">
+            <!--upper footer-->
+            <section class="section-three bg-dark my-4">
+                <div class="row d-flex">
+                    <div class="col-lg-6 p-5">
+                        <h3 class="mb-4"> Contact Me </h3>
+                        <h1 class="mb-4"> Realize your dream with us</h1>
+                        <span class="mb-4">
+                            <i class="fa-brands fa-facebook-f me-4" style="color: #fff;"></i>
+                            <i class="fa-brands fa-twitter me-4" style="color: #fff;"></i>
+                            <i class="fa-brands fa-dribbble me-4" style="color: #fff;"></i>
+                            <i class="fa-brands fa-google me-4" style="color: #fff;"></i>
+                        </span>
+                    </div>
+                    <div class="col-lg-6  p-5">
+                        <form>
+                            <div class="row pb-3">
+                                <div class="col-md-6 ">
+                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0 "
+                                        placeholder="First Name" />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Last Name" />
+                                </div>
+
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Email Address" />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Subject" />
+                                </div>
+
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col">
+                                    <textarea class="form-control" style="height: 100px"></textarea>
+                                </div>
+
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-md-6">
+                                    <button type="submit"> Send Message</button>
+                                </div>
+
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!--lower footer-->
+            <section class="lower-footer bg-dark my-4">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <p class="text-center align-middle m-4"> Copyright © All Right Reserved </p>
+                </div>
+            </section>
+        </footer>
+
+    </div>
+
+    <!-- js bootstrap 5-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--js fontawesome-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

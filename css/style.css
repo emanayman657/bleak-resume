@@ -1,0 +1,160 @@
+body{
+    background-color: #212121 !important;
+}
+.bg-dark{
+    background-color: #262626 !important;
+}
+*{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #fff;
+
+}
+.navbar-brand{
+    background: linear-gradient(90deg, #D61A5E 0%, #FF8C05 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 39.6px;
+}
+.nav-link{
+    color: #fff !important;
+}
+.section-one ,.section-two{
+    color: #fff;
+}
+.section-one p {
+    color: #FAFAFA;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.section-one h1{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 87px;
+    background: linear-gradient(90deg, #D61A5E 0%, #FF8C05 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.section-one a ,form button{
+    color: #fff;
+    background: linear-gradient(111deg, #FF8C05 0%, #D61A5E 100%);
+    padding: 12px 19.86px 14px 20px;
+    border-radius: 2px;
+    border: unset;
+}
+.navbar-collapse {
+    justify-content: end;
+}
+h1{
+    font-size: 50px !important;
+    font-weight: 700 !important;
+    line-height: 55px !important;
+
+}
+.section-two h3 , .section-three h3 ,.section-four h3{
+    font-size: 28px !important;
+    color: #FF8C05 !important;
+    font-weight: 700 !important;
+    line-height: 30.8px !important;
+}
+.section-two p , .lower-footer p{
+    color: #FAFAFA !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+}
+.navbar-toggler-icon{
+    color: #212121 !important;
+}
+.section-three .list-inline-item a{
+    text-decoration: none !important;
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px; /* 146.667% */
+    letter-spacing: 1px;
+}
+.section-three .list-inline-item a.active{
+    color: #FF8C05 !important;
+}
+.section-four{
+    color: #fff !important;
+}
+
+.section-four h2{
+    font-size: 24px !important;
+    line-height: 35px;
+}
+.section-four .content span a{
+    color: #FF8C05 !important;
+    text-decoration: none !important;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 1px;
+
+}
+footer{
+    color: #fff;
+}
+
+.form-control:valid {
+    background-color:  transparent!important;
+    border: 0;
+    border-bottom: 1px solid #6C757D;
+    border-radius: unset;
+    
+  }
+  .form-control::placeholder{
+    color: #6C757D;
+  }
+  
+  textarea{
+    resize: unset !important;  }
+    .section-three .flower{
+        position: relative;
+        padding: 5px;
+        overflow: hidden;
+    }
+.section-three .flower::before{
+    content: attr(data-work);
+    position: absolute;
+    background-color: #21212169;
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.3s;
+    transform: translate(calc(-100% - 2rem));
+    font-size: 1.3rem;
+    }
+    .section-three .flower:hover:before{
+        transform: translate(0);
+
+    }
+    .tab-content>.active {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+        background-color: transparent !important;
+        color: #FF8C05 !important;
+    }
+.nav-link:hover{
+        color:#FF8C05 !important;
+    }
